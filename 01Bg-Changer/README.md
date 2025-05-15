@@ -16,7 +16,7 @@ A simple and interactive background color changer built using **React.js** and *
 
 - **React.js**
 - **Vite**
-- **CSS** (or Tailwind CSS, if used)
+- **TailwindCSS**
 - **JavaScript (ES6+)**
 <br><br>
 
