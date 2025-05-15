@@ -31,11 +31,9 @@ A secure and customizable **Password Generator** built with **React.js** and **V
 
 ```
 
-password-generator/
+02Password-Generator/
 ├── public/
 ├── src/
-│   ├── components/
-│   │   └── PasswordOptions.jsx
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
@@ -57,8 +55,8 @@ password-generator/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/password-generator.git
-cd password-generator
+git clone https://github.com/SutharHarsh/password-generator.git
+cd 02Password-Generator
 ```
 
 ### 2. Install Dependencies
