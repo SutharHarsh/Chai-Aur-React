@@ -13,7 +13,7 @@ function App() {
           <button onClick={() => setColor("green")} className='px-4 py-1 mx-1 outline-0 rounded-4xl text-white cursor-pointer' style={{ backgroundColor: "green" }}>Green</button>
           <button onClick={() => setColor("blue")} className='px-4 py-1 mx-1 outline-0 rounded-4xl text-white cursor-pointer' style={{ backgroundColor: "blue" }}>Blue</button>
           <button onClick={() => setColor("purple")} className='px-4 py-1 mx-1 outline-0 rounded-4xl text-white cursor-pointer' style={{ backgroundColor: "purple" }}>Purple</button>
-          <button onClick={() => setColor("pink")} className='px-4 py-1 mx-1 outline-0 rounded-4xl text-black cursor-pointer' style={{ backgroundColor: "pink" }}>Purple</button>
+          <button onClick={() => setColor("pink")} className='px-4 py-1 mx-1 outline-0 rounded-4xl text-black cursor-pointer' style={{ backgroundColor: "pink" }}>Pink</button>
         </div>
       </div>
     </>
