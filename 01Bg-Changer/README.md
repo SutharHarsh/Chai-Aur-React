@@ -21,6 +21,7 @@ A simple and interactive background color changer built using **React.js** and *
 
 ## 📁 Project Structure
 
+```
 bg-changer/
 ├── public/
 ├── src/
@@ -30,6 +31,7 @@ bg-changer/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
 
 
 ## 🚀 Getting Started
