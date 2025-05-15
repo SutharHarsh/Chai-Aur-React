@@ -1,8 +1,3 @@
-Here’s a professional and clean `README.md` file for your **Background Changer** React project created using **Vite**:
-
----
-
-```markdown
 # 🎨 Background Changer (React + Vite)
 
 A simple and interactive background color changer built using **React.js** and **Vite**. This project allows users to change the background color of the page dynamically by clicking buttons or selecting from a color palette.
@@ -11,7 +6,6 @@ A simple and interactive background color changer built using **React.js** and *
 
 - 🔄 Change background color with a click
 - 🎯 Choose from a list of predefined colors
-- 🎨 Option to input custom colors
 - ⚡ Built using Vite for super-fast development experience
 - 📱 Responsive and clean UI
 
@@ -24,11 +18,8 @@ A simple and interactive background color changer built using **React.js** and *
 
 ## 📸 Screenshots
 
->![project screen-shot](image.png)
 
 ## 📁 Project Structure
-
-```
 
 bg-changer/
 ├── public/
@@ -40,7 +31,6 @@ bg-changer/
 ├── vite.config.js
 └── README.md
 
-````
 
 ## 🚀 Getting Started
 
@@ -51,7 +41,8 @@ Follow these instructions to set up and run the project locally.
 ```bash
 git clone https://github.com/SutharHarsh/bg-changer.git
 cd bg-changer
-````
+```
+
 
 ### 2. Install dependencies
 
@@ -85,12 +76,6 @@ npm run preview
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 
 Made with ❤️ using React and Vite
-
-```
