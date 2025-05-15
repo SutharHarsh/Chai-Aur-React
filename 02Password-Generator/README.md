@@ -55,7 +55,7 @@ A secure and customizable **Password Generator** built with **React.js** and **V
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SutharHarsh/password-generator.git
+git clone https://github.com/SutharHarsh/Chai-Aur-React.git
 cd 02Password-Generator
 ```
 
