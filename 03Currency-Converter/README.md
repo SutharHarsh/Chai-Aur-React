@@ -60,7 +60,7 @@ This project uses a **free currency conversion API** like:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SutharHarsh/currency-converter.git
+git clone https://github.com/SutharHarsh/Chai-Aur-React.git
 cd 03Currency-Converter
 ```
 
