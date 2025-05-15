@@ -1,13 +1,13 @@
 # 🎨 Background Changer (React + Vite)
 
-A simple and interactive background color changer built using **React.js** and **Vite**. This project allows users to change the background color of the page dynamically by clicking buttons or selecting from a color palette.
+A simple and interactive background color changer built using **React.js** and **Vite**. This project allows users to change the background color of the page dynamically by clicking buttons.
 <br><br>
 
 ## 🚀 Features
 
 - 🔄 Change background color with a click
 - 🎯 Choose from a list of predefined colors
-- ⚡ Built using Vite for super-fast development experience
+- ⚡ Built using Vite for a super-fast development experience
 - 📱 Responsive and clean UI
 <br><br>
   
@@ -28,7 +28,7 @@ A simple and interactive background color changer built using **React.js** and *
 ## 📁 Project Structure
 
 ```
-bg-changer/
+01Bg-Changer/
 ├── public/
 ├── src/
 │   ├── App.jsx
@@ -49,8 +49,8 @@ Follow these instructions to set up and run the project locally.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SutharHarsh/bg-changer.git
-cd bg-changer
+git clone https://github.com/SutharHarsh/Chai-Aur-React.git
+cd 01Bg-Changer
 ```
 <br>
 
@@ -86,10 +86,6 @@ npm run build
 npm run preview
 ```
 <br><br>
-
-## 🙌 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
