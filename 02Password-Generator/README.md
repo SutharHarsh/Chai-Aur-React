@@ -1,12 +1,91 @@
-# React + Vite
+# 🔐 Password Generator (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure and customizable **Password Generator** built with **React.js** and **Vite**. Instantly generate strong, random passwords based on your chosen criteria — perfect for keeping your accounts safe.
+<br><br>
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Generate strong, random passwords
+- 🔢 Choose password length
+- 🔠 Include uppercase, lowercase, numbers, and symbols
+- 🔄 Regenerate with a single click
+- 📋 Copy to clipboard functionality
+- ⚡ Fast and responsive UI (powered by Vite)
+<br><br>
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+<br><br>
+
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/c2409ab8-8498-4636-8936-7701b525ae13)
+![image](https://github.com/user-attachments/assets/f04b52e6-a6bd-4d86-9d9e-a3a9be820e48)
+
+<br><br>
+
+## 📁 Project Structure
+
+```
+
+02Password-Generator/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+```
+
+## 🔧 How It Works
+
+1. Select the desired length of your password.
+2. Choose which character types to include (uppercase, lowercase, numbers, symbols).
+3. Copy the generated password to your clipboard with a single click!
+<br>
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SutharHarsh/Chai-Aur-React.git
+cd 02Password-Generator
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start Development Server
+
+```bash
+npm run dev
+```
+
+Then open: [http://localhost:5173](http://localhost:5173)
+
+### 4. Build for Production
+
+```bash
+npm run build
+```
+
+### 5. Preview Production Build
+
+```bash
+npm run preview
+```
+<br>
+
+---
+
+Made with 🛡️ using React + Vite
