@@ -1,12 +1,126 @@
-# React + Vite
+# ⚛️ Mini-Context – React Context API Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mini-Context** is a minimal React project demonstrating the use of the **React Context API** for state management. This project replaces prop drilling with a global state mechanism to efficiently share data between components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 Uses React's built-in **Context API**
+- 🏗️ Global state management without external libraries (like Redux)
+- 📡 Share data between deeply nested components
+- 💡 Clean and simple architecture
+- ⚡ Built with Vite for fast development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **React Context API**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+
+
+## 📁 Project Structure
+
+```
+
+05Mini-Context/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Login.jsx
+│   │   └── Profile.jsx
+│   ├── context/
+│   │   └── UserContext.js
+│   │   └── UserContextProvider.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+
+```
+
+
+## 🧩 How It Works
+
+1. A global context is created using `createContext()`.
+2. A Context Provider wraps the main App to supply shared data.
+3. Any component can access or update the context using `useContext()`.
+
+
+
+## 🧪 Code Snippets
+
+### 🔧 Create Context
+
+```jsx
+import { createContext, useState } from 'react';
+
+export const AppContext = createContext();
+
+export const AppProvider = ({ children }) => {
+  const [user, setUser] = useState("John Doe");
+
+  return (
+    <AppContext.Provider value={{ user, setUser }}>
+      {children}
+    </AppContext.Provider>
+  );
+};
+```
+
+### 📦 Use Context in Components
+
+```jsx
+import { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
+
+function ChildComponent() {
+  const { user } = useContext(AppContext);
+  return <p>Hello, {user}!</p>;
+}
+```
+
+
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SutharHarsh/Chai-Aur-React.git
+cd 05Mini-Context
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+Visit: [http://localhost:5173](http://localhost:5173)
+
+### 4. Build for Production
+
+```bash
+npm run build
+```
+
+### 5. Preview Production Build
+
+```bash
+npm run preview
+```
+
+
+Built with ❤️ using React + Vite + Context API
